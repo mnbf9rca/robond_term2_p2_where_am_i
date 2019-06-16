@@ -6,9 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /Map1
-        - /PoseArray1
-        - /costMap1
+        - /Pose1
       Splitter Ratio: 0.5
     Tree Height: 429
   - Class: rviz/Selection
@@ -67,6 +65,7 @@ Visualization Manager:
         Grid: true
         LaserScan: true
         Map: true
+        Pose: true
         PoseArray: true
         RobotModel: true
         Value: true
@@ -183,6 +182,21 @@ Visualization Manager:
       Unreliable: false
       Use Timestamp: false
       Value: true
+    - Alpha: 1
+      Axes Length: 1
+      Axes Radius: 0.100000001
+      Class: rviz/Pose
+      Color: 85; 255; 0
+      Enabled: true
+      Head Length: 0.300000012
+      Head Radius: 0.100000001
+      Name: Pose
+      Shaft Length: 1
+      Shaft Radius: 0.5
+      Shape: Arrow
+      Topic: /move_base_simple/goal
+      Unreliable: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -208,25 +222,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 10
+      Distance: 4.83746147
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -6.20495844
-        Y: -0.86277622
-        Z: -0.343117058
+        X: -1.6411984
+        Y: 1.71679175
+        Z: 4.18996763
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.925397336
+      Pitch: 0.949796915
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.86858845
+      Yaw: 2.92539382
     Saved: ~
 Window Geometry:
   Camera:
@@ -246,5 +260,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1680
-  X: 0
-  Y: 0
+  X: -1
+  Y: -26

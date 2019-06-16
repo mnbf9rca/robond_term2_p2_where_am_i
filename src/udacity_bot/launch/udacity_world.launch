@@ -22,7 +22,7 @@
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -param robot_description -model udacity_bot"/>
   <!--launch rviz-->
 
-  <node type="rviz" name="rviz" pkg="rviz" respawn="false" args="-d $(find udacity_bot)/rviz/rviz_config.rviz" />
-
+  <node type="rviz" name="rviz" pkg="rviz" respawn="false" args="-d $(find udacity_bot)/rviz/udacity_Rvizconfig.rviz" />
+  <include file="$(find udacity_bot)/launch/amcl.launch"/>
 
 </launch>
