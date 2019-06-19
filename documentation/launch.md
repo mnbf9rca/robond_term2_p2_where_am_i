@@ -1,0 +1,2 @@
+To launch Udacit's bot: roslaunch udacity_bot udacity_world.launch
+to launch my bot: roslaunch rob_bot udacity_rob_bot_world.launch
