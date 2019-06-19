@@ -2,7 +2,7 @@ map_type: costmap
 
 obstacle_range: 4.5
 raytrace_range: 4.5
-cost_scaling_factor: 25
+cost_scaling_factor: 2
 
 transform_tolerance: 3
 
