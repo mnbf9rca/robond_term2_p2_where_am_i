@@ -149,6 +149,38 @@
         <parent link="chassis"/>
     </joint>
 
+<!-- begin customisation -->
+<!--
+        <link name='rear_fin'>
+        <visual name='rear_fin'>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size='0.05 .2 0.3'/>
+            </geometry>
+        </visual>
+        <inertial>
+            <mass value="0.1"/>
+            <origin xyz="0.0 0 0" rpy="0 0 0"/>
+            <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+        </inertial>
+
+        <collision name='collision'>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size='0.05 .2 0.3'/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint type="fixed" name="rear_fin_joint">
+        <origin xyz="-0.2 0 0.05" rpy="0 0 0"/>
+        <child link="rear_fin"/>
+        <parent link="chassis"/>
+    </joint>
+    -->
+<!-- end customisation -->
+
+
     <link name='hokuyo'>
         <visual name='hokuyo_visual'>
             <origin xyz="0 0 0" rpy="0 0 0"/>
